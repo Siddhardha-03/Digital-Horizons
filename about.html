@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+        padding: 20px;
+        background: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+    }
+    h1 {
+        color: #333;
+    }
+    .section {
+        margin-bottom: 20px;
+    }
+    .section h2 {
+        color: #0056b3;
+    }
+    .section p {
+        color: #555;
+        line-height: 1.6;
+    }
+    .highlight {
+        color: #ff9800;
+    }
+    .image-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: space-around;
+    }
+    .image-gallery img {
+        width: calc(20% - 10px);
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+    }
+    .join-us {
+        text-align: center;
+        padding: 10px;
+        background: #0056b3;
+        color: #fff;
+        border-radius: 8px;
+        text-decoration: none;
+    }
+    .join-us:hover {
+        background: #004494;
+    }
+
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+        .container {
+            width: 95%;
+            padding: 10px;
+        }
+        .image-gallery img {
+            width: calc(50% - 10px);
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .image-gallery img {
+            width: calc(100% - 10px);
+        }
+    }
+</style>
+
+
+<body>
+    <div class="main">
+        <div class="logo">
+            <img  id ="img-logo" src="https://i.ibb.co/YLFD8Gp/logo1.png" alt="logo1" border="0">
+        <h1 id="mainh">DIGITAL HORIZONS</h1>
+        </div>
+        
+        <div class="nav">
+        
+            <a href="index.html">HOME</a>
+            <a href="course.html">COURSES</a>
+            <a href="services.html">SERVICES</a>
+            <a href="about.html">ABOUT</a>
+        </div>
+    
+    </diV>
+       
+        <div class="container">
+            <h1>About Us</h1>
+            <div class="section">
+                <h2>Welcome to <span class="highlight">DIGITAL HORIZONS</span> - Where Knowledge Meets Innovation!</h2>
+                <p>At <span class="highlight">DIGITAL HORIZONS</span>, we believe in empowering minds with cutting-edge technology and essential financial literacy. Our mission is to bridge the gap between curiosity and mastery by providing accessible, high-quality education in AI & ML, IoT, and Financial Literacy.</p>
+            </div>
+            <div class="section">
+                <h2>Who We Are</h2>
+                <p>We are a passionate team of tech enthusiasts, educators, and industry professionals dedicated to making technology education exciting, engaging, and inclusive. Our diverse backgrounds and expertise allow us to bring a fresh perspective to learning, ensuring our courses are relevant and impactful.</p>
+            </div>
+            <div class="section">
+                <h2>What We Offer</h2>
+                <p><strong>Artificial Intelligence & Machine Learning (AI/ML):</strong> Dive into the world of AI with hands-on projects, real-world applications, and expert guidance. Learn everything from the basics of machine learning to advanced AI techniques.</p>
+                <p><strong>Internet of Things (IoT):</strong> Explore the interconnected world of IoT. Understand how devices communicate, interact, and transform our daily lives. Our IoT courses cover everything from fundamental concepts to innovative projects.</p>
+                <p><strong>Financial Literacy:</strong> Equip yourself with the essential skills needed to navigate the financial world. Our financial literacy courses cover budgeting, investing, saving, and more, ensuring you make informed decisions for a secure future.</p>
+            </div>
+            <div class="section">
+                <h2>Our Approach</h2>
+                <p>We believe that learning should be a journey, not a destination. Our interactive and practical approach ensures you not only understand the theory but can also apply it in real-life scenarios. Through engaging content, community support, and continuous updates, we keep you ahead of the curve in a rapidly evolving tech landscape.</p>
+            </div>
+            <div class="section">
+                <h2>Join Us</h2>
+                <p>Whether you’re a beginner eager to start your tech journey or a professional looking to enhance your skills, <span class="highlight">DIGITAL HORIZONS</span> is your perfect partner in learning. Join our community today and be a part of the revolution that's shaping the future!</p>
+            </div>
+            <div class="section">
+                <h2>Our Gallery</h2>
+                <div class="image-gallery">
+                    <img src="images/about1.jpg" alt="Image 1">
+                    <img src="images/about2.jpg" alt="Image 2">
+                    <img src="images/about3.png" alt="Image 3">
+                    <img src="images/about4.jpg" alt="Image 4">
+                    <img src="images/about5.jpg" alt="Image 5">
+                </div>
+            </div>
+            <a href="#" class="join-us">Join Us Now</a>
+        </div>
+    
+
+
+    <footer>
+        <p>Quick links</p>
+
+       <ul>
+          <li><a href="index.html">HOME</a></li> 
+
+          <li><a href="course.html">COURSES</a></li>
+           <li> <a href="services.html">SERVICES</a></li>
+           <li><a href="about.html">ABOUT</a></li>
+       </ul>
+
+        <p class="adr">&copy; 2024 DIGITAL HORIZONS. All rights reserved.</p>
+   </footer>
+
+
+</body>
+</html>
