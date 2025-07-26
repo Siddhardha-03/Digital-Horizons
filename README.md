@@ -1,2 +1,2 @@
 # Digital-Horizons
-A website for school students to learn how the new technologies works.
+An interactive web platform designed to educate school students on the fundamentals of emerging technologies.
